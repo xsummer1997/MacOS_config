@@ -1,4 +1,4 @@
-# nvim command help
+#  nvim command help
 ## <space> cs v模式选中后注释
 ## <space> cn v模式选中后解注释
 ## <space> rn 改名
