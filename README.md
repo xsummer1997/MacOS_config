@@ -1,2 +1,2 @@
 # MacOS_config
-Something about MacOS config
+## Something about MacOS config
