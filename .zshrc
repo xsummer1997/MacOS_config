@@ -33,6 +33,12 @@ source /Users/xsummer/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosugg
 #neofetch
 
 #重新定义命令alias
+alias mkdir='mkdir -p'
+alias cp='cp -i'
+alias kext='sudo kextcache -i /'
+alias alc='git clone https://github.com/acidanthera/AppleALC.git ~/Desktop/AppleALC'
+alias xr='defaults -currentHost write -globalDomain AppleFontSmoothing -int 3'
+alias hidpi='sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"'
 alias vivo="scrcpy"
 alias vzh='vimtutor -g zh'
 alias bs='brew search'
@@ -57,6 +63,7 @@ alias bu='brew uninstall'
 alias bci='brew cask install'
 ##==============================================================================
 ##==============================================================================
+alias ghds='cd ~/Desktop/scripts'
 alias ghdc='cd ~/Desktop/C_prog'
 alias ghd='cd ~/Desktop/'
 alias gh='cd ~'
@@ -394,7 +401,8 @@ zle -N backward-delete-char check-cmd-backward-delete-char
 ####################################zsh主题###################################
 ##############################################################################
 #
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs virtualenv)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir) 
+##vcs virtualenv)
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(user dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 #POWERLEVEL9K_DISABLE_RPROMPT=true

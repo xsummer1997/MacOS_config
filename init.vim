@@ -15,6 +15,8 @@ set autochdir
 " === Editor behavior
 " ===
 set number
+set cul "高亮光标所在行
+set cuc
 set relativenumber
 set cursorline
 set expandtab
