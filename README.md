@@ -11,3 +11,5 @@
 ## init.vim     ==> neovim configure
 
 ## nvim_help.md ==> Some usages about neovim/vim
+
+## update.sh    ==> git submit script
