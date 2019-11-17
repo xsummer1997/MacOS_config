@@ -1,7 +1,7 @@
 ### Usages Description of echo file
 
 |  FILE NAME       |      Usage Description       |
-|:----------------:|:-----------------------------|
+|:-----------------|:-----------------------------|
 | .zshrc           |  zsh configure file          |
 | IO.md            |  standard IO                 |
 | backup.sh        |  backup bash                 |
