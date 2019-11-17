@@ -9,5 +9,3 @@
 | init.vim         |  neovim configure            |
 | nvim_help.md     |  Some usages about neovim/vim|
 | Github_upload.sh |  git submit script           |
-
-
