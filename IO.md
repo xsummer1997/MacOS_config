@@ -74,8 +74,7 @@ ftell(FILE \*fp) <==> fseek(fp,0,SEEK_END) => len=ftell(fp)—> 获取当前的�
 ### 目录IO
 |函数|功能|函数使用|
 |:---------:|:-------------:|:-------------------------------------------------------------------|
-|opendir    |	打开目录	|DIR \*opendir(const char \*pathname)
-成功返回目录流指针，失败返回NULL
+|opendir    |	打开目录	|DIR \*opendir(const char \*pathname)成功返回目录流指针，失败返回NULL
 |mkdir	    |	创建目录	|int mkdir(const char \*path,mode_t mode(该目录的访问权限))
 |readdir	|	读目录	    |struct dirent \*readdir(DIR \*dr);返回值：成功则返回struct dirent指针，若在目录为或出错则返回NULL。
 |rewinddir	|	调整目录指针|void rewinddir(DIR \*dr)
